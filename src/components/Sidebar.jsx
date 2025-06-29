@@ -27,13 +27,13 @@ export const Sidebar = () => {
                     <li className=''><a className='text-xl hover:text-neon hover-neon transtition duration-200 ease-in relative top-0 hover:-top-[5px]' href="https://twitter.com/ban_sujan" target="_blank"><FiTwitter className='m-4' /></a></li>
                     <li className=''><a className='text-xl hover:text-neon hover-neon transtition duration-200 ease-in relative top-0 hover:-top-[5px]' href="https://www.linkedin.com/in/sujan-ban/" target="_blank"><FiLinkedin className='m-4' /></a></li>
                     <li className=''><a className='text-xl hover:text-neon hover-neon transtition duration-200 ease-in relative top-0 hover:-top-[5px]' href="https://codepen.io/sujanban" target="_blank"><FiCodepen className='m-4' /></a></li>
-                    <li className='mt-4 w-1 h-20 bg-colorsecondary m-auto'></li>
+                    <li className='mt-4 w-1 h-20 bg-gray-500 m-auto'></li>
                 </ul>
             </div>
             <div data-aos="zoom-in" data-aos-delay="1150" className='p-2 pb-0 hidden md:flex fixed bottom-0 right-5 xl:right-10 w-10 items-center justify-center text-colorsecondary'>
                 <ul className=''>
                     <li className='relative rotate-90 mb-20 '><a className=' hover:text-neon hover-neon mb-40 transtition duration-200 ease-in relative left-0 hover:-left-[5px] m-4 text-sm' href="mailto:bansujan@gmail.com">bansujan@gmail.com</a></li>
-                    <li className='mt-4 w-1 h-20 bg-colorsecondary m-auto'></li>
+                    <li className='mt-4 w-1 h-20 bg-gray-500 m-auto'></li>
                 </ul>
             </div>
         </div>
