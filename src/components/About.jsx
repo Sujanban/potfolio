@@ -12,7 +12,6 @@ export const About = () => {
               <h2 className='text-colorprimary text-xl md:text-2xl font-bold'><span className='text-neon'>01. </span>About Me</h2>
             </li>
             <p className='py-4 text-sm md:text-base'>Hello! I’m Sujan Ban, a Web Developer focusing on developing platforms with the latest technologies. I build dynamic web applications with engaging interfaces and Committed to clean code and continuous learning. </p>
-            {/* <p className='py-2 text-sm md:text-base'>Fast-forward to today, and I’ve had the privilege of working at an travel ticket booking agency, a start-up, a huge corporation, and a student-led idea. My main focus these days is building accessible, inclusive interface and digital experiences at okayjourney for daily users.</p> */}
             <p className='py-2 text-sm md:text-base'>Here are a few technologies I’ve been working with recently:</p>
             <ul className='grid-cols-2 grid py-2'>
               <li className='flex items-center py-2 text-sm'><BiRightArrow className='text-neon text-sm' /> Svelte</li>
