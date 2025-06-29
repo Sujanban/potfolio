@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import logoBig from "../assets/sujanban-frontend-developer-logo.webp";
 import { RiBarChartHorizontalLine } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
-// import cv from "../images/CV.pdf";
-import cv from '../assets/Sujan_Ban_Web_Developer.pdf'
+import cv from '../assets/Sujan Ban - Web Developer.pdf'
 
 export const Navbar = () => {
     const [state, setState] = useState(false);
