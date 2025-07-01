@@ -28,3 +28,13 @@ html {
 .bg-green-hover:hover {
   background-color: rgb(89, 227, 197, 0.2);
 }
+
+
+@theme{
+  --color-green-hover : 'rgba(212, 252, 243,0.2)',
+  --color-bgmain : '#0a192f',
+  --color-bgcard : '#112240',
+  --color-neon : '#64ffda',
+  --color-colorprimary : '#ccd6f6',
+  --color-colorsecondary : '#8892b0'
+}
