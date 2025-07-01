@@ -5,6 +5,7 @@ import { BiLinkExternal } from "react-icons/bi";
 import project1 from "../assets/project1.webp";
 import project2 from "../assets/project2.webp";
 import project3 from "../assets/crowdfunding.png";
+import MovieManiaNew from "../assets/MovieManiaNew.png";
 
 export const Project = () => {
     return (
@@ -16,7 +17,7 @@ export const Project = () => {
                     </li>
                     <div className='relative py-4 md:py-8 flex items-center my-12'>
                         <div className='w-[60%] bg-[#1C4753] hidden md:block'>
-                            <img className=' transition duration-200 ease-in  opacity-[0.2] hover:opacity-100 w-full h-[100%] rounded' src={project3} alt="realestate marketplace developed by sujan ban" />
+                            <img className=' transition duration-200 ease-in  opacity-[0.7] hover:opacity-100 w-full h-[100%] rounded' src={project3} alt="realestate marketplace developed by sujan ban" />
                         </div>
                         <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-end md:absolute bg-bgcard md:bg-transparent md:right-0'>
                             <div className=''>
@@ -33,7 +34,7 @@ export const Project = () => {
                     </div>
                     <div className='relative py-4 md:py-8 flex items-center my-12'>
                         <div className='w-[60%] bg-[#1C4753] md:ml-auto  hidden md:block'>
-                            <img className=' transition duration-200 ease-in w-full opacity-[0.2] hover:opacity-100 h-[100%] rounded ml-auto' src={project2} alt="Shortner - Ads free URL Shortner by sujan ban" />
+                            <img className=' transition duration-200 ease-in w-full opacity-[0.7] hover:opacity-100 h-[100%] rounded ml-auto' src={project2} alt="Shortner - Ads free URL Shortner by sujan ban" />
                         </div>
                         <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-start md:absolute bg-bgcard md:bg-transparent left-0'>
                             <div className=''>
@@ -50,7 +51,7 @@ export const Project = () => {
                     </div>
                     <div className='relative py-4 md:py-8 flex items-center my-12'>
                         <div className='w-[60%] bg-[#1C4753] hidden md:block'>
-                            <img className=' transition duration-200 ease-in  opacity-[0.2] hover:opacity-100 w-full h-[100%] rounded' src={project1} alt="realestate marketplace developed by sujan ban" />
+                            <img className=' transition duration-200 ease-in  opacity-[0.7] hover:opacity-100 w-full h-[100%] rounded' src={project1} alt="realestate marketplace developed by sujan ban" />
                         </div>
                         <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-end md:absolute bg-bgcard md:bg-transparent md:right-0'>
                             <div className=''>
@@ -64,6 +65,33 @@ export const Project = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className='relative py-4 md:py-8 flex items-center my-12'>
+                        <div className='w-[60%] bg-[#1C4753] md:ml-auto  hidden md:block'>
+                            <img className=' transition duration-200 ease-in w-full opacity-[0.7] hover:opacity-100 h-[100%] rounded ml-auto' src={MovieManiaNew} alt="MovieMania - Movie Mania is a mobile app for discovering and searching movies, showing details like earnings, genres, ratings, cast, and more" />
+                        </div>
+                        <div className='w-full lg:max-w-[50%] md:max-w-[80%] md:text-start md:absolute bg-bgcard md:bg-transparent left-0'>
+                            <div className=''>
+                                <h3 className='p-4 md:px-0 md:py-4 text-neon text-sm md:text-base'>Featured Project</h3>
+                                <h1 className='p-4 md:px-0 md:py-4 text-xl md:text-2xl font-semibold'>MovieMania</h1>
+                                <div className='p-4 text-colorsecondary rounded bg-bgcard text-sm'>
+                                    Moviemania is a mobile app for discovering and searching movies, showing details like earnings, genres, ratings, cast, and more. 
+                                </div>
+                                <li className='flex-wrap flex list-none p-4 md:px-0 md:py-4 text-colorsecondary text-sm'> <span className='p-2'>React Native</span>
+                                    <span className='p-2'>Tailwind CSS</span>
+                                    <span className='p-2'>Appwrite</span>
+                                    <span className='p-2'>TMDB API</span>
+                                    <span className='p-2'>Node.js + Express</span>
+                                    <span className='p-2'>MongoDB</span>
+                                </li>
+                                <li className='p-4 md:px-0 md:py-4 list-none flex text-end'>
+                                    <a className='p-2' href="https://github.com/Sujanban/Shopzilla_Ecommerce" target='_blank'><FiGithub /></a>
+                                    <a className='p-2 text-end' target='_blank' href="https://shopzillaecommerce.netlify.app/"><BiLinkExternal className='text-end' /></a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+
                     <div data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" className='text-center py-8 '>
                         <h1 className='text-xl md:text-2xl font-bold'>Other Noteworthy Projects</h1>
                         <h3 className='text-neon p-4'>view the archive</h3>
